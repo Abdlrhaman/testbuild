@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: o;
+}
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1p black;
+    margin-bottom: 5px;
+}
+#logo img{
+    width: 200px;
+}
+ span {
+    color: #ffd902;
+}
+.abdo {
+  margin-left: 200px;
+    
+}
+.mama .baba {
+  font-size: 25px;
+  font-weight: 550;
+  color: rgb(255, 254, 254);
+  letter-spacing: 1px;
+  border-radius: 30x;
+  transition: 0.5s ease;
+
+}
+.mama .baba:hover{
+  background: #ffd902;
+  color: white;
+}
+.ham{
+    margin-left: 164px;
+    margin-right: -50px;
+    
+}
+.ham .smsm {
+  background-color: #ed7c6a;
+  border: none;
+}
+
+
+/* <!-- <start header section> --> */
+ .home{
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+.header-index p {
+    margin-top: 120px;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: #59a18a;
+    color: white;
+    padding: 45px;
+    border-radius: 20px;
+    letter-spacing: 2;
+    line-height: 1.6;
+}
+@media only screen and (max-width: 762px) {
+    .header-index p {
+        font-size: 50px;
+        padding: 20px;
+    }
+}
+/* <!-- <end header section> --> */
+/* <!-- start school clinic section --> */
+.clinic-index h2{
+    color: #0f4c4b;
+    font-size: 50px;
+}
+.clinic-index hr {
+    width: 210px;
+    margin: auto;
+    background-color: red;
+    border: none;
+    margin-bottom: 38px;
+}
+/* <!-- End school clinic section --> */
+/* <!-- start grad section --> */
+.grad-index {
+    background-image: url(../img/Path\ 62.png) , url(../img/i-love-my-job-so-much_329181-2178.png);
+    height: 800px;
+    background-size: cover;
+ }
+ @media only screen and (max-width: 992px) {
+    .grad-index {
+        height: fit-content;
+        padding-bottom: 50ppx;
+    }
+ }
+
+/* <!-- End grad section --> */
+/* <!-- start footer section --> */
+.footer-index {
+    background-color: #0f7b56;
+    color: white;
+    height: 400px;
+    border-radius: 200px 200px 0px 0px ;
+    padding: 50px;
+}
+.footer-index h4 {
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.footer-index p {
+    line-height: 2;
+    word-spacing: 1.6px;
+}
+.footer-index h3 {
+    color: #0f4c4b;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+.footer-index a {
+    line-height: 2;
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 768px) 
+{
+    .footer-index {
+        height: fit-content;
+        padding: 50px;
+        border-radius: 100px 100px 0px 0px ;
+        padding-bottom: 40px;
+    }
+}
+
+/* <!-- End footer section --> */
